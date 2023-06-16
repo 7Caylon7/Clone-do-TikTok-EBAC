@@ -1,0 +1,38 @@
+.videoFooter{
+    position: relative;
+    bottom: 25%;
+    color: #f5f5f5;
+    margin-left: 1.87rem;
+}
+
+.videoFooter_text h3{
+    padding-bottom: 1.25rem;
+}
+
+.videoFooter_text p{
+    padding-bottom: 1.25rem;
+}
+
+.videoFooter_music{
+    display: flex;
+}
+
+.videoFooter_records{
+    animation: spinTheRecord 3s infinite linear;
+    position: absolute;
+    bottom: 0.15rem;
+    right: 1rem;
+    height: 3.12rem;
+    filter: invert(1); /*inverte as cores padrão do vinil*/
+}
+
+/*animação key-frame*/
+@keyframes spinTheRecord{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+

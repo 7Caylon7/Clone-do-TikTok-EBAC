@@ -8,5 +8,6 @@
 .video_player{
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: fill; /*esticando o conteudo do vídeo pra se adequar ao player*/
+    
 }
