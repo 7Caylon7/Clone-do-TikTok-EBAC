@@ -17,6 +17,15 @@
     display: flex;
 }
 
+.videoFooterMusic_text{
+    width: 80%;
+    overflow-x: hidden;
+}
+
+.videoFooterMusic_text p{
+    animation: moveTheText 5s infinite linear;
+}
+
 .videoFooter_records{
     animation: spinTheRecord 3s infinite linear;
     position: absolute;
@@ -26,7 +35,7 @@
     filter: invert(1); /*inverte as cores padrão do vinil*/
 }
 
-/*animação key-frame*/
+/*animação key-frame do disco de vinil*/
 @keyframes spinTheRecord{
     0%{
         transform: rotate(0deg);
@@ -36,3 +45,12 @@
     }
 }
 
+/*animação key-frame do nome da música*/
+@keyframes moveTheText{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
