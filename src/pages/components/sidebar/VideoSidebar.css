@@ -9,3 +9,10 @@
     padding: 0.8rem;
     text-align: center;
 }
+
+/*Responsividade*/
+@media only screen and (max-width: 27.5rem){
+    .videoSidebar{
+        top: 46%;
+    }
+}

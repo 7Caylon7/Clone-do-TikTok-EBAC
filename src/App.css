@@ -35,4 +35,10 @@ html{
   scrollbar-width: none;
 }
 
-
+/*Criando a responsividade*/
+@media only screen and (max-width: 27.5rem){
+  .app_videos{
+    width: 100%;
+    height: 95vh;
+  }
+}

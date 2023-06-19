@@ -54,3 +54,13 @@
         transform: translateX(-100%);
     }
 }
+
+/*Responsividade*/
+@media only screen and (max-width:27.5rem){
+    .videoFooter{
+        bottom: 22%;
+    }
+    .videoFooterMusic_text{
+        width: 75%;
+    }
+}
